@@ -26,6 +26,7 @@
 开发时按照[quickstart](https://kivy.org/doc/stable/guide/basic.html#quickstart)问题不大，主要是打包时有些调整。
 
 1. 文件目录，用于生成python模块，以直接pip进要打包的kivy-venv环境
+```
 ├── MyApp
 │   ├── __init__.py （空文件）
 │   ├── setup.py （模块配置）
@@ -38,6 +39,7 @@
 │   │       ├── SimSun.ttf
 │   │       ├── bg.jpg
 │   │       ├
+```
 
 2. setup.py
 生成python模块的设置，解决打包安装后，双击图标不运行的问题。
